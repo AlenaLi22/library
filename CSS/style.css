@@ -1,0 +1,21 @@
+.navbar-brand img {
+    width: 200px;
+}
+.carousel-item {
+height: 400px;
+}
+.carousel-caption {
+    padding: 130px;
+}
+.card img {
+    width: 130px;
+}
+.card-body h3 {
+    text-transform: uppercase;
+    color: burlywood;
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+}
