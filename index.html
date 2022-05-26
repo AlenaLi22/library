@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Электронная библиотека</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">    
+    <title>Электронная библиотека</title>
+
 </head>
 <body>
     <!-- Вверхнее меню bg-light - цвет фона, expand-lg - кнопка меню-->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
               <img src="img/logo.png" alt="logo">
           </a>
@@ -64,46 +65,137 @@
         </button>
       </div>
       <!-- cards -->
-      <div class="container" id="cards">
-          <div class="row">
-      <div class="card col-md-4">
-        <img src="img/pic-01.png" class="card-img-top" alt="pic01">
+<div class="container" id="cards">
+  <div class="row mb-5 mt-5">
+<div class="col-md-4 col-sm-12">
+<div class="card">
+  <img src="img/pic-01.png" alt="pic-01">
+  <div class="card-body">
+    <h3 class="card-title">ИССКУСТВО</h3>
+    <p class="card-text">Увлекаетесь искусством? Для Вас создан целый раздел книг, посвященный данной теме</p>
+  </div>
+</div>
+</div>
+<div class="col-md-4 col-sm-12">
+  <div class="card">
+    <img src="img/pic-02.png" alt="pic-02">
+    <div class="card-body">
+      <h3 class="card-title">ТОЧНЫЕ НАУКИ</h3>
+      <p class="card-text">Математика, химия, физика. Весь материал собран на портале "Электронная библиотека"</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12">
+  <div class="card">
+    <img src="img/pic-03.png" alt="pic-03">
+    <div class="card-body">
+      <h3 class="card-title">ИЛЛЮСТРАЦИИ</h3>
+      <p class="card-text">Интересна фотография? Загляните к нам и оцените труды мировых фотографов</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!-- books -->
+<div class="container" id="books">
+<div class="row">
+  <div class="col-12">
+    <h2>ПОПУЛЯРНЫЕ КНИГИ</h2>
+    <p>На сайте Электронной библиотеки собрано более тысячи книг</p>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-01.jpg" alt="book-01">
         <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h3 class="card-title">АЛГЕБРА 7 КЛАСС</h3>
+          <p class="card-text category ">Школьные предметы</p>
+          </h3>
         </div>
-      </div>
-      <div class="card col-md-4">
-        <img src="img/pic-02.png" class="card-img-top" alt="pic02">
-        <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card col-md-4">
-        <img src="img/pic-03.png" class="card-img-top" alt="pic03">
-        <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
       </div>
     </div>
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-02.jpg" alt="book-02">
+        <div class="card-body">
+          <h3 class="card-title">ВСЕОБЩАЯ ИСТОРИЯ</h3>
+          <p class="card-text category ">Школьные предметы</p>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-03.jpg" alt="book-03">
+        <div class="card-body">
+          <h3 class="card-title">ГАРРИ ПОТТЕР</h3>
+          <p class="card-text category ">Художественная литература</p>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-04.jpg" alt="book-04">
+        <div class="card-body">
+          <h3 class="card-title">СОЗДАНИЕ ВЕБ-САЙТА</h3>
+          <p class="card-text category ">"Для чайников"</p>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-05.jpg" alt="book-05">
+        <div class="card-body">
+          <h3 class="card-title">АНГЛИЙСКИЙ ЯЗЫК</h3>
+          <p class="card-text category ">Справочники</p>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <div class="card">
+        <img src="img/books/book-06.jpg" alt="book-06">
+        <div class="card-body">
+          <h3 class="card-title">РУКОВОДСТВО HTML/CSS</h3>
+          <p class="card-text category ">Справочники</p>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
 
-    <div class="container">
-        <div class="row">
-        <div class="books">
-        <h3>ПОПУЛЯРНЫЕ КНИГИ</h3>
-        <p>На сайте Электронной библиотеки собрано более тысячи книг</p>
-        <img src="img/books/book-01.jpg" alt="book1">
-        <img src="img/books/book-02.jpg" alt="book2">
-        <img src="img/books/book-03.jpg" alt="book3">
-        <img src="img/books/book-04.jpg" alt="book4">
-        <img src="img/books/book-05.jpg" alt="book5">
-        <img src="img/books/book-06.jpg" alt="book6">
+<div class="mt-5 mb-1" id="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.2365259458866!2d48.405297051492134!3d54.31744978009678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415d376fa5f01ac9%3A0xd9b256ec90dbd38f!2z0LEt0YAg0J3QvtCy0YvQuSDQktC10L3QtdGGLCDQo9C70YzRj9C90L7QstGB0LosINCj0LvRjNGP0L3QvtCy0YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1653586517703!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+<footer>
+  <div class="container">
+  <div class="row pt-5 pb-5" style="color: white;">
+    <div class="col-md-4">
+      <h3>Контактная информация</h3>
+      <p>Ульяновск <br>Бульвар Новый Венец</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Основное меню</h3>
+      <ul style="list-style: none;">
+        <li><a href="">Главная</a></li>
+        <li><a href="">Новости</a></li>
+        <li><a href="">Каталог</a></li>
+        <li><a href="">Личный кабинет</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3>Цитаты великих писателей</h3>
     </div>
 </div>
-</div>
+  </div>
+</footer>
+
    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

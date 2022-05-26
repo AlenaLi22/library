@@ -9,13 +9,27 @@ height: 400px;
 }
 .card img {
     width: 130px;
+} 
+.card-title {
+color: #7c6062;
 }
-.card-body h3 {
-    text-transform: uppercase;
-    color: burlywood;
+#books .card{
+    border: 0;
 }
-
-.books {
-    display: flex;
-    flex-direction: row;
+#books img{
+    width: 100%;
+}
+#books .card-body {
+    padding: 0;
+    padding-top: 20px;
+}
+#books {
+    padding-right: 0;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: gray;
 }
