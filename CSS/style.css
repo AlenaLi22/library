@@ -33,3 +33,6 @@ ul a {
 footer {
     background-color: gray;
 }
+#books div {
+    padding-right: 0;
+}
